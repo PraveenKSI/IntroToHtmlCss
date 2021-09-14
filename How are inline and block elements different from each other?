@@ -1,0 +1,6 @@
+1.How are inline and block elements different from each other?
+
+            Block element                               |              Inline element
+It start on a new line                                  | It doesn't starts on a new line
+It takes full width                                     | It takes as much width as necessary
+It has top and bottom margin                            | It doesn't have top and bottom margin
