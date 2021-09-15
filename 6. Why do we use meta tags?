@@ -1,0 +1,18 @@
+The metadata means information about data. The <meta> tag in HTML provides information about HTML Document or in simple words,it provides important information about a document. 
+These tags are basically used to add name/value pairs to describe properties of HTML documents, such as expiry date, author name, list of keywords, document author, etc. This tag is an empty element because it only has an opening tag and no closing tag, but it carries information within its attributes. A web document can include one or more meta tags depending on information, but in general, it doesn’t affect the physical appearance of the document. 
+
+Syntax
+
+<meta attribute-name="value">
+
+Attributes:
+name: This attribute is used to define the name of the property.
+http-equiv: This attribute is used to get the HTTP response message header.
+content: This attribute is used to specify properties value.
+charset: This attribute is used to specify a character encoding for an HTML file.
+Key Points:
+
+The <meta> tag contents are not visible on your browser.
+They are just used to give additional information about the HTML document.
+The <meta> tags are added to our HTML document for the purpose of Search Engine Optimisation.
+They are added inside the <head> tag.
