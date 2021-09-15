@@ -1,0 +1,7 @@
+Semantic tags tells us about different parts of the webpage and their purpose.
+a.)<nav> -> It is used to make the navigation bar which contains menu and links.
+b.)<header> ->It is the top part of the webpage which contains name,logo and navbar.
+c.)<footer> ->It is the bottom part it contains quick link,feedback and contacts.
+d.)<article> ->This HTML element represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable.
+e.)<detail> ->The <details> HTML element creates a disclosure widget in which information is visible only when the widget is toggled into an "open" state. 
+ A summary or label must be provided using the <summary> element.
