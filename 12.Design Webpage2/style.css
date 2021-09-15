@@ -1,0 +1,83 @@
+/* *{
+    border:1px solid black;
+} */
+nav{
+    border-bottom: 1px solid black;
+    background-color: whitesmoke;
+    padding: 10px;
+    color: turquoise;
+}
+.nav-link{
+    float: right;
+}
+a{
+    padding: 5px;
+    text-decoration: none;
+    color: turquoise;
+}
+h1{
+    display: inline;
+}
+.form-container{
+    background-color: whitesmoke;
+    max-width:50vw;
+    margin:30px auto;
+    border-radius: 5px;
+
+}
+form{
+    padding: 20px;
+}
+.form-head{
+    background-color: #343434;
+    color: white;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+#title,#description{
+    min-width: 100%;
+    border-radius: 5px;
+    height: 1.3rem;
+}
+#description{
+    min-height: 5rem;
+}
+#os-select{
+    margin: 5px;
+    min-width: 100%;
+    height: 1.3rem;
+    background-color: turquoise;
+    border-radius: 5px;
+    color: white;
+}
+#version{
+    border-radius: 5px;
+    height: 1.3rem;
+}
+#license-label{
+    margin-right: 30%;
+}
+#attach-file{
+    border-radius: 5px;
+    min-width: 100%;
+    background-color: white;
+    border: 1px solid lightgrey;
+    text-align: center;
+    
+}
+.submit-container{
+    border-top: 1px solid grey;
+    margin-top: 5px;
+    padding:30px;
+    background-color: lightgrey;
+    border-bottom-right-radius:5px;
+    border-bottom-left-radius: 5px;
+}
+#submit-btn{
+    color: white;
+    margin-left:90%;
+    background-color: turquoise;
+    width: 70px;
+    height: 2rem;
+    border-radius: 5px;
+}

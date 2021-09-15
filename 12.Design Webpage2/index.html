@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <span class="cname"><h1>TO THE NEW</h1></span>
+        <span class="nav-link">
+            <a href="">Home</a>
+            <a href="">Quick</a>
+            <a href="">Help</a>
+        </span>
+    </nav>
+    <div class="form-container">
+        <div class = "form-head">Bug Report</div>
+        <form action="">
+            <label for="title">Title*.</label><br>
+            <input type="text" id = "title"><br>
+            <label for="description">Description*.</label><br>
+            <textarea rows = "5" cols="75" id = "description" placeholder="Enter description">
+             </textarea><br>
+             <label for="">Operating System*.</label>
+             <select name="" id="os-select">
+                 <option value="">Windows XP</option>
+                 <option value="">Linux</option>
+                 <option value="">Mac OS</option>
+                 <option value="">Android</option>
+             </select><br>
+
+             <label for="">Product*.</label>
+             <select name="" id="os-select">
+                 <option value="">Formoid</option>
+                 <option value="">Lorem</option>
+                 <option value="">Dolar</option>
+                 <option value="">Sit</option>
+             </select><br>
+
+             <label for="">Version*.</label><br>
+             <input type="text" id = "version">
+
+             <p>License</p>
+             <input type="radio" id="license" name="license" value="Free">
+             <label for="html" id ="license-label" >Free</label>
+             <input type="radio" id="license" name="license" value="Business">
+             <label for="css" id = "license-label">Business</label><br><br>
+
+             <label for="">Severity:</label>
+             <select name="" id="os-select">
+                 <option value="">Critical</option>
+                 <option value="">Major</option>
+                 <option value="">Minor</option>
+                 <option value="">Null</option>
+             </select><br><br>
+
+             <label for="">Attachments</label><br>
+             <label for="attach-file">
+                <input type="file" name="" id="attach-file">
+             </label><br><br>
+        </form>
+        <div class="submit-container">
+            <input type="submit" value="Send" id = "submit-btn">
+        </div>
+    </div>
+</body>
+</html>
