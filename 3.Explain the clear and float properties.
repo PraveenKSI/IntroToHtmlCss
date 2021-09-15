@@ -1,0 +1,11 @@
+ans)
+The float Property
+The float property is used for positioning and formatting content e.g. let an image float left to the text in a container.
+
+The float property can have one of the following values:
+
+left - The element floats to the left of its container
+right - The element floats to the right of its container
+
+The Clear Property
+The CSS clear property specifies what elements can float beside the cleared element and on which side.
